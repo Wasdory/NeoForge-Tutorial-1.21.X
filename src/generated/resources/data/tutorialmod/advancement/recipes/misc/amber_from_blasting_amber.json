@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tutorialmod:thaumium_from_smelting_amber"
+        "recipe": "tutorialmod:amber_from_blasting_amber"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:thaumium_from_smelting_amber"
+      "tutorialmod:amber_from_blasting_amber"
     ]
   }
 }

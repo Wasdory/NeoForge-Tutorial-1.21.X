@@ -5,10 +5,10 @@
   "experience": 0.25,
   "group": "amber",
   "ingredient": {
-    "item": "tutorialmod:amber"
+    "item": "tutorialmod:deepslate_amber_ore"
   },
   "result": {
     "count": 1,
-    "id": "tutorialmod:thaumium"
+    "id": "tutorialmod:amber"
   }
 }

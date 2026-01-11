@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 200,
+  "cookingtime": 100,
   "experience": 0.25,
   "group": "amber",
   "ingredient": {
-    "item": "tutorialmod:amber"
+    "item": "tutorialmod:amber_ore"
   },
   "result": {
     "count": 1,
-    "id": "tutorialmod:thaumium"
+    "id": "tutorialmod:amber"
   }
 }

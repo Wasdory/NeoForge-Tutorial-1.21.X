@@ -19,7 +19,14 @@ public class ModItems {
     public static final DeferredItem<Item> THAUMIUM = ITEMS.register("thaumium",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> VOID_METAL = ITEMS.register("void_metal",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.tutorialmod.void_metal"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
     public static final DeferredItem<Item> AMBER = ITEMS.register("amber",
             () -> new Item(new Item.Properties()));
 
@@ -30,7 +37,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_BRAIN)));
 
     public static final DeferredItem<Item> ALUMENTUM = ITEMS.register("alumentum",
-            () -> new FuelItem(new Item.Properties(), 800));
+            () -> new FuelItem(new Item.Properties(), 6400));
 
 
     public static void register(IEventBus eventBus) {

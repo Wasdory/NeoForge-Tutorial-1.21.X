@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_deepslate_amber_ore": {
+    "has_amber": {
       "conditions": {
         "items": [
           {
-            "items": "tutorialmod:deepslate_amber_ore"
+            "items": "tutorialmod:amber"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tutorialmod:thaumium_from_blasting_deepslate_amber_ore"
+        "recipe": "tutorialmod:amber_from_smelting_amber"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_deepslate_amber_ore"
+      "has_amber"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:thaumium_from_blasting_deepslate_amber_ore"
+      "tutorialmod:amber_from_smelting_amber"
     ]
   }
 }

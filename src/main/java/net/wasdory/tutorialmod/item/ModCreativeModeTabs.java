@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tutorialmod.thaum_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.THAUMIUM);
+                        output.accept(ModItems.VOID_METAL);
                         output.accept(ModItems.AMBER);
 
                         output.accept(ModItems.CHISEL);
@@ -35,6 +36,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tutorialmod.thaum_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.THAUMIUM_BLOCK);
+                        output.accept(ModBlocks.VOID_METAL_BLOCK);
+
                         output.accept(ModBlocks.AMBER_ORE);
                         output.accept(ModBlocks.DEEPSLATE_AMBER_ORE);
 

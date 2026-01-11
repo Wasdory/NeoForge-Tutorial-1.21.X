@@ -34,13 +34,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.THAUMIUM_BLOCK)
                 .unlockedBy("has_thaumium_block", has(ModBlocks.THAUMIUM_BLOCK)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.VOID_METAL_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.VOID_METAL.get())
+                .unlockedBy("has_void_metal_ignot", has(ModItems.VOID_METAL)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VOID_METAL.get(), 9)
+                .requires(ModBlocks.VOID_METAL_BLOCK)
+                .unlockedBy("has_void_metal_block", has(ModBlocks.VOID_METAL_BLOCK)).save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.THAUMIUM.get(), 18)
                 .requires(ModBlocks.ARCANE_BLOCK)
                 .unlockedBy("has_magic_block", has(ModBlocks.ARCANE_BLOCK))
                 .save(recipeOutput, "tutorialmod:thaumium_from_arcane_block");
 
-        oreSmelting(recipeOutput, AMBER_SMELTABLES, RecipeCategory.MISC, ModItems.THAUMIUM.get(), 0.25f, 200, "amber");
-        oreBlasting(recipeOutput, AMBER_SMELTABLES, RecipeCategory.MISC, ModItems.THAUMIUM.get(), 0.25f, 100, "amber");
+        oreSmelting(recipeOutput, AMBER_SMELTABLES, RecipeCategory.MISC, ModItems.AMBER.get(), 0.25f, 200, "amber");
+        oreBlasting(recipeOutput, AMBER_SMELTABLES, RecipeCategory.MISC, ModItems.AMBER.get(), 0.25f, 100, "amber");
 
         stairBuilder(ModBlocks.MAGIC_STONE_STAIRS.get(), Ingredient.of(ModBlocks.MAGIC_STONE)).group("magic_stone")
                 .unlockedBy("has_magic_stone", has(ModBlocks.MAGIC_STONE)).save(recipeOutput);

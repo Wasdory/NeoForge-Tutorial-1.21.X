@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_amber": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:void_metal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_metal_ignot": {
       "conditions": {
         "items": [
           {
-            "items": "tutorialmod:amber"
+            "items": "tutorialmod:void_metal"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "tutorialmod:thaumium_from_blasting_amber"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_amber"
+      "has_void_metal_ignot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:thaumium_from_blasting_amber"
+      "tutorialmod:void_metal_block"
     ]
   }
 }
