@@ -1,0 +1,6 @@
+// 1.21.1	2026-01-10T22:37:41.098728918	Tags for minecraft:block mod id tutorialmod
+7071f8d03664d4d830ca38d4511fb7cee68841d0 data/minecraft/tags/block/fence_gates.json
+7e2fb779d1813cf5fa7eb6e2a7c9e7cb41a59a71 data/minecraft/tags/block/fences.json
+c3cbc5d47c8c42db5cb20717bc673f0e902b98bb data/minecraft/tags/block/mineable/pickaxe.json
+0f537424303159a6e52732a1f2459b9e5251f354 data/minecraft/tags/block/needs_iron_tool.json
+04e58e449cc6397acb86114ec1f21b552f6211d3 data/minecraft/tags/block/walls.json
