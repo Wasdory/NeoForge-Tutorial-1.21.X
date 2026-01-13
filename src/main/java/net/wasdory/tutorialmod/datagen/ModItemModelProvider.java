@@ -1,5 +1,7 @@
 package net.wasdory.tutorialmod.datagen;
 
+import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.wasdory.tutorialmod.TutorialMod;
 import net.wasdory.tutorialmod.block.ModBlocks;
 import net.wasdory.tutorialmod.item.ModItems;
@@ -25,6 +27,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ALUMENTUM.get());
         basicItem(ModItems.CHISEL.get());
 
+        handheldItem(ModItems.THAUMIUM_SWORD);
+        handheldItem(ModItems.THAUMIUM_SHOVEL);
+        handheldItem(ModItems.THAUMIUM_PICKAXE);
+        handheldItem(ModItems.THAUMIUM_AXE);
+        handheldItem(ModItems.THAUMIUM_HOE);
+
         buttonItem(ModBlocks.MAGIC_STONE_BUTTON, ModBlocks.MAGIC_STONE);
         fenceItem(ModBlocks.MAGIC_STONE_FENCE, ModBlocks.MAGIC_STONE);
         wallItem(ModBlocks.MAGIC_STONE_WALL, ModBlocks.MAGIC_STONE);
@@ -48,5 +56,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
                 .texture("wall",  ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(DeferredItem<?> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

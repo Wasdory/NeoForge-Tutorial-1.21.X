@@ -28,6 +28,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ZOMBIE_BRAIN);
 
                         output.accept(ModItems.ALUMENTUM);
+
+                        output.accept(ModItems.THAUMIUM_SWORD);
+                        output.accept(ModItems.THAUMIUM_SHOVEL);
+                        output.accept(ModItems.THAUMIUM_PICKAXE);
+                        output.accept(ModItems.THAUMIUM_AXE);
+                        output.accept(ModItems.THAUMIUM_HOE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> THAUM_BLOCK_TAB = CREATIVE_MODE_TAB.register("thaum_blocks_tab",

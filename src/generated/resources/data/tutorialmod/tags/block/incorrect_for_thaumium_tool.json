@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#tutorialmod:needs_thaumium_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

@@ -1,2 +1,7 @@
-// 1.21.1	2026-01-10T22:37:41.098981031	Tags for minecraft:item mod id tutorialmod
+// 1.21.1	2026-01-13T22:26:03.371470469	Tags for minecraft:item mod id tutorialmod
+cdab5b4e242ff36081deff08419b6e05cbe1fd99 data/minecraft/tags/item/axes.json
+00c307d4ad087264ff9e97e3b3709071f4a1577b data/minecraft/tags/item/hoes.json
+528d2a3dc7163f4028f582f20a006500c41b0e86 data/minecraft/tags/item/pickaxes.json
+37804b9df1f439aafa4ec4b65f9bc444e898ee75 data/minecraft/tags/item/shovels.json
+cc40cea70bfff303bfd3143dfb215265b0844aa0 data/minecraft/tags/item/swords.json
 dc43afcc36bd64c44cc5318822c6cefafc1bb8bf data/tutorialmod/tags/item/transformable_items.json

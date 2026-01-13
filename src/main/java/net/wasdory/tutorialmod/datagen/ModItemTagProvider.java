@@ -1,5 +1,6 @@
 package net.wasdory.tutorialmod.datagen;
 
+import net.minecraft.tags.ItemTags;
 import net.wasdory.tutorialmod.TutorialMod;
 import net.wasdory.tutorialmod.item.ModItems;
 import net.wasdory.tutorialmod.util.ModTags;
@@ -27,6 +28,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(Items.COAL)
                 .add(Items.STICK)
                 .add(Items.COMPASS);
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.THAUMIUM_SWORD.asItem());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.THAUMIUM_PICKAXE.asItem());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.THAUMIUM_SHOVEL.asItem());
+        tag(ItemTags.AXES)
+                .add(ModItems.THAUMIUM_AXE.asItem());
+        tag(ItemTags.HOES)
+                .add(ModItems.THAUMIUM_HOE.asItem());
 
     }
 }
