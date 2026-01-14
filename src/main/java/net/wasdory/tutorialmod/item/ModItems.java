@@ -8,6 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.wasdory.tutorialmod.item.custom.HammerItem;
 
 import java.util.List;
 
@@ -50,7 +51,11 @@ public class ModItems {
                     .attributes(AxeItem.createAttributes(ModToolTiers.THAUMIUM, 5.5f, -3.1f))));
     public static final DeferredItem<HoeItem> THAUMIUM_HOE = ITEMS.register("thaumium_hoe",
             () -> new HoeItem(ModToolTiers.THAUMIUM, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.THAUMIUM, -2.5f, 0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.THAUMIUM, -2.5f, -1f))));
+
+    public static final DeferredItem<HammerItem> THAUMIUM_HAMMER = ITEMS.register("thaumium_hammer",
+            () -> new HammerItem(ModToolTiers.THAUMIUM_HAMMER, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.THAUMIUM_HAMMER, 6.5f, -3.5f))));
 
 
     public static void register(IEventBus eventBus) {

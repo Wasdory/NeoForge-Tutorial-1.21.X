@@ -32,6 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.THAUMIUM_PICKAXE);
         handheldItem(ModItems.THAUMIUM_AXE);
         handheldItem(ModItems.THAUMIUM_HOE);
+        handheldItem(ModItems.THAUMIUM_HAMMER);
 
         buttonItem(ModBlocks.MAGIC_STONE_BUTTON, ModBlocks.MAGIC_STONE);
         fenceItem(ModBlocks.MAGIC_STONE_FENCE, ModBlocks.MAGIC_STONE);

@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.THAUMIUM_PICKAXE);
                         output.accept(ModItems.THAUMIUM_AXE);
                         output.accept(ModItems.THAUMIUM_HOE);
+
+                        output.accept(ModItems.THAUMIUM_HAMMER);
                     }).build());
 
     public static final Supplier<CreativeModeTab> THAUM_BLOCK_TAB = CREATIVE_MODE_TAB.register("thaum_blocks_tab",
