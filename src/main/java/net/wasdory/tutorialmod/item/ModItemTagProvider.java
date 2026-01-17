@@ -1,8 +1,7 @@
-package net.wasdory.tutorialmod.datagen;
+package net.wasdory.tutorialmod.item;
 
 import net.minecraft.tags.ItemTags;
 import net.wasdory.tutorialmod.TutorialMod;
-import net.wasdory.tutorialmod.item.ModItems;
 import net.wasdory.tutorialmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -39,6 +38,39 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.THAUMIUM_AXE.asItem());
         tag(ItemTags.HOES)
                 .add(ModItems.THAUMIUM_HOE.asItem());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.THAUMIUM_HELMET.get())
+                .add(ModItems.THAUMIUM_CHESTPLATE.get())
+                .add(ModItems.THAUMIUM_LEGGINGS.get())
+                .add(ModItems.THAUMIUM_BOOTS.get());
+
+        tag(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_HELMET.get());
+        tag(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_CHESTPLATE.get());
+        tag(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_LEGGINGS.get());
+        tag(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_BOOTS.get());
+
+        tag(ItemTags.EQUIPPABLE_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_HELMET.get())
+                .add(ModItems.THAUMIUM_CHESTPLATE.get())
+                .add(ModItems.THAUMIUM_LEGGINGS.get())
+                .add(ModItems.THAUMIUM_BOOTS.get());
+
+        tag(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_HELMET.get())
+                .add(ModItems.THAUMIUM_CHESTPLATE.get())
+                .add(ModItems.THAUMIUM_LEGGINGS.get())
+                .add(ModItems.THAUMIUM_BOOTS.get());
+
+        tag(ItemTags.ARMOR_ENCHANTABLE)
+                .add(ModItems.THAUMIUM_HELMET.get())
+                .add(ModItems.THAUMIUM_CHESTPLATE.get())
+                .add(ModItems.THAUMIUM_LEGGINGS.get())
+                .add(ModItems.THAUMIUM_BOOTS.get());
 
     }
 }

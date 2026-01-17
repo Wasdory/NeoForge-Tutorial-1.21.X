@@ -57,6 +57,19 @@ public class ModItems {
             () -> new HammerItem(ModToolTiers.THAUMIUM_HAMMER, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.THAUMIUM_HAMMER, 6.5f, -3.5f))));
 
+    public static final DeferredItem<ArmorItem> THAUMIUM_HELMET = ITEMS.register("thaumium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.THAUMIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(23))));
+    public static final DeferredItem<ArmorItem> THAUMIUM_CHESTPLATE = ITEMS.register("thaumium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.THAUMIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(23))));
+    public static final DeferredItem<ArmorItem> THAUMIUM_LEGGINGS = ITEMS.register("thaumium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.THAUMIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(23))));
+    public static final DeferredItem<ArmorItem> THAUMIUM_BOOTS = ITEMS.register("thaumium_boots",
+            () -> new ArmorItem(ModArmorMaterials.THAUMIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(23))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
