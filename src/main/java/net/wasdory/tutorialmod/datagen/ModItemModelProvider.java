@@ -61,6 +61,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.THAUMIUM_CHESTPLATE);
         trimmedArmorItem(ModItems.THAUMIUM_LEGGINGS);
         trimmedArmorItem(ModItems.THAUMIUM_BOOTS);
+        basicItem(ModItems.THAUMIUM_HORSE_ARMOR.get());
+        basicItem(ModItems.KWA_SMITHING_TEMPLATE.get());
+
+        trimmedArmorItem(ModItems.FORTRESS_HELMET);
+        trimmedArmorItem(ModItems.FORTRESS_CHESTPLATE);
+        trimmedArmorItem(ModItems.FORTRESS_LEGGINGS);
+        trimmedArmorItem(ModItems.FORTRESS_BOOTS);
 
         buttonItem(ModBlocks.MAGIC_STONE_BUTTON, ModBlocks.MAGIC_STONE);
         fenceItem(ModBlocks.MAGIC_STONE_FENCE, ModBlocks.MAGIC_STONE);

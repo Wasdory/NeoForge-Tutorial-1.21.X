@@ -43,15 +43,29 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.THAUMIUM_HELMET.get())
                 .add(ModItems.THAUMIUM_CHESTPLATE.get())
                 .add(ModItems.THAUMIUM_LEGGINGS.get())
-                .add(ModItems.THAUMIUM_BOOTS.get());
+                .add(ModItems.THAUMIUM_BOOTS.get())
+                .add(ModItems.FORTRESS_HELMET.get())
+                .add(ModItems.FORTRESS_CHESTPLATE.get())
+                .add(ModItems.FORTRESS_LEGGINGS.get())
+                .add(ModItems.FORTRESS_BOOTS.get());
+
+        this.tag(ItemTags.TRIM_MATERIALS)
+                        .add(ModItems.VOID_METAL.get());
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                        .add(ModItems.KWA_SMITHING_TEMPLATE.get());
+
 
         tag(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(ModItems.FORTRESS_HELMET.get())
                 .add(ModItems.THAUMIUM_HELMET.get());
         tag(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(ModItems.FORTRESS_CHESTPLATE.get())
                 .add(ModItems.THAUMIUM_CHESTPLATE.get());
         tag(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(ModItems.FORTRESS_LEGGINGS.get())
                 .add(ModItems.THAUMIUM_LEGGINGS.get());
         tag(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(ModItems.FORTRESS_BOOTS.get())
                 .add(ModItems.THAUMIUM_BOOTS.get());
 
         tag(ItemTags.EQUIPPABLE_ENCHANTABLE)
@@ -64,13 +78,21 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.THAUMIUM_HELMET.get())
                 .add(ModItems.THAUMIUM_CHESTPLATE.get())
                 .add(ModItems.THAUMIUM_LEGGINGS.get())
-                .add(ModItems.THAUMIUM_BOOTS.get());
+                .add(ModItems.THAUMIUM_BOOTS.get())
+                .add(ModItems.FORTRESS_HELMET.get())
+                .add(ModItems.FORTRESS_CHESTPLATE.get())
+                .add(ModItems.FORTRESS_LEGGINGS.get())
+                .add(ModItems.FORTRESS_BOOTS.get());
 
         tag(ItemTags.ARMOR_ENCHANTABLE)
                 .add(ModItems.THAUMIUM_HELMET.get())
                 .add(ModItems.THAUMIUM_CHESTPLATE.get())
                 .add(ModItems.THAUMIUM_LEGGINGS.get())
-                .add(ModItems.THAUMIUM_BOOTS.get());
+                .add(ModItems.THAUMIUM_BOOTS.get())
+                .add(ModItems.FORTRESS_HELMET.get())
+                .add(ModItems.FORTRESS_CHESTPLATE.get())
+                .add(ModItems.FORTRESS_LEGGINGS.get())
+                .add(ModItems.FORTRESS_BOOTS.get());
 
     }
 }

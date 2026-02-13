@@ -41,6 +41,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.THAUMIUM_CHESTPLATE);
                         output.accept(ModItems.THAUMIUM_LEGGINGS);
                         output.accept(ModItems.THAUMIUM_BOOTS);
+                        output.accept(ModItems.THAUMIUM_HORSE_ARMOR);
+                        output.accept(ModItems.KWA_SMITHING_TEMPLATE);
+
+                        output.accept(ModItems.FORTRESS_HELMET);
+                        output.accept(ModItems.FORTRESS_CHESTPLATE);
+                        output.accept(ModItems.FORTRESS_LEGGINGS);
+                        output.accept(ModItems.FORTRESS_BOOTS);
 
                     }).build());
 

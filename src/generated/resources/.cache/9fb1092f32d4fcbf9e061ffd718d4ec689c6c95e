@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-11T21:33:16.121436576	Recipes
+// 1.21.1	2026-02-13T17:33:29.058803941	Recipes
 da56429fd682fcd936e04031f9db8e7f56572eab data/tutorialmod/advancement/recipes/building_blocks/magic_stone_slab.json
 b12f9973cc54ae9bf52bd7c2c1580ecba2808c6a data/tutorialmod/advancement/recipes/building_blocks/magic_stone_stairs.json
 097d65b83a4b5797e4c0248b4028c5200e49d55b data/tutorialmod/advancement/recipes/building_blocks/magic_stone_wall.json
@@ -9,6 +9,7 @@ ba883f0b5968afebc32d1e3115051a6d36ba9981 data/tutorialmod/advancement/recipes/de
 6b9c94343211ca9410e744b1b84f68c6bf7bbea5 data/tutorialmod/advancement/recipes/misc/amber_from_smelting_amber.json
 194151c7363dd319ce6b309b02d945564d8d441c data/tutorialmod/advancement/recipes/misc/amber_from_smelting_amber_ore.json
 02b392371e347d287063c83cbe828aead6cfaeb0 data/tutorialmod/advancement/recipes/misc/amber_from_smelting_deepslate_amber_ore.json
+13a3183dd993121f3e3730c7079037322944ea31 data/tutorialmod/advancement/recipes/misc/kwa.json
 63487e7da44e209c9ec909b28c8a6dfc8ee04a28 data/tutorialmod/advancement/recipes/misc/thaumium.json
 9bd4e5575f13c37841ed18440a94ec3fa5397a0a data/tutorialmod/advancement/recipes/misc/thaumium_block.json
 d32ef151a1d493d798d3600a21ee86a2960061b3 data/tutorialmod/advancement/recipes/misc/thaumium_from_arcane_block.json
@@ -25,6 +26,7 @@ c7524f7da5d0f0a9cec266737ea79bc407361137 data/tutorialmod/advancement/recipes/re
 022ff7946adcc32e44a1816887c8cb886b0a177f data/tutorialmod/recipe/amber_from_smelting_amber.json
 68ace35737a547a667dd71bf025cb1abfed43234 data/tutorialmod/recipe/amber_from_smelting_amber_ore.json
 2d05377c48f174714ca83e56e38881a561e3ae4d data/tutorialmod/recipe/amber_from_smelting_deepslate_amber_ore.json
+4775475ea2f58e370f8c219ed108d8989a85c765 data/tutorialmod/recipe/kwa.json
 3ad7f1e4c314f97b3dbef96b6b050c44fb4adad3 data/tutorialmod/recipe/magic_stone_button.json
 cb9f8dd78d4da1dcc065c33105ac4733f3b70228 data/tutorialmod/recipe/magic_stone_door.json
 d51a3a825c4b123d2de06b9d58847de2508e5bd7 data/tutorialmod/recipe/magic_stone_fence.json

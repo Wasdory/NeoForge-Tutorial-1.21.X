@@ -1,5 +1,6 @@
 package net.wasdory.tutorialmod.datagen;
 
+import net.minecraft.resources.ResourceLocation;
 import net.wasdory.tutorialmod.TutorialMod;
 import net.wasdory.tutorialmod.block.ModBlocks;
 import net.wasdory.tutorialmod.item.ModItems;
@@ -71,6 +72,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_magic_stone", has(ModBlocks.MAGIC_STONE.get())).save(recipeOutput);
         trapdoorBuilder(ModBlocks.MAGIC_STONE_TRAPDOOR.get(), Ingredient.of(ModBlocks.MAGIC_STONE.get())).group("magic_stone")
                 .unlockedBy("has_magic_stone", has(ModBlocks.MAGIC_STONE.get())).save(recipeOutput);
+
+        trimSmithing(recipeOutput, ModItems.KWA_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "kwa"));
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

@@ -27,6 +27,15 @@ public class ModArmorMaterials {
                 attibute.put(ArmorItem.Type.BODY, 7);
             }), 30, 0f, 0f, ModItems.THAUMIUM);
 
+    public static final Holder<ArmorMaterial> FORTRESS_ARMOR_MATERIAL = register( "fortress",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attibute -> {
+                attibute.put(ArmorItem.Type.HELMET, 3);
+                attibute.put(ArmorItem.Type.CHESTPLATE, 8);
+                attibute.put(ArmorItem.Type.LEGGINGS, 6);
+                attibute.put(ArmorItem.Type.BOOTS, 3);
+                attibute.put(ArmorItem.Type.BODY, 7);
+            }), 30, 0f, 0f, ModItems.THAUMIUM);
+
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,

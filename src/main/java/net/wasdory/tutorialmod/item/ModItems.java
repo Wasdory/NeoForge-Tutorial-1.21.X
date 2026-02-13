@@ -1,5 +1,6 @@
 package net.wasdory.tutorialmod.item;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.wasdory.tutorialmod.TutorialMod;
 import net.wasdory.tutorialmod.item.custom.ChiselItem;
@@ -9,6 +10,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.wasdory.tutorialmod.item.custom.HammerItem;
+import net.wasdory.tutorialmod.item.custom.ModArmorItem;
 
 import java.util.List;
 
@@ -69,6 +71,26 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> THAUMIUM_BOOTS = ITEMS.register("thaumium_boots",
             () -> new ArmorItem(ModArmorMaterials.THAUMIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(23))));
+
+    public static final DeferredItem<ArmorItem> FORTRESS_HELMET = ITEMS.register("fortress_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.FORTRESS_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(30))));
+    public static final DeferredItem<ArmorItem> FORTRESS_CHESTPLATE = ITEMS.register("fortress_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.FORTRESS_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(30))));
+    public static final DeferredItem<ArmorItem> FORTRESS_LEGGINGS = ITEMS.register("fortress_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.FORTRESS_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(30))));
+    public static final DeferredItem<ArmorItem> FORTRESS_BOOTS = ITEMS.register("fortress_boots",
+            () -> new ModArmorItem(ModArmorMaterials.FORTRESS_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(30))));
+
+    public static final DeferredItem<Item> THAUMIUM_HORSE_ARMOR = ITEMS.register("thaumium_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.THAUMIUM_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> KWA_SMITHING_TEMPLATE = ITEMS.register( "kwa_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "kwa")));
 
 
     public static void register(IEventBus eventBus) {

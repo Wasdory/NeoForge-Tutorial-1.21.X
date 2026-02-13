@@ -3,6 +3,10 @@
     "tutorialmod:thaumium_helmet",
     "tutorialmod:thaumium_chestplate",
     "tutorialmod:thaumium_leggings",
-    "tutorialmod:thaumium_boots"
+    "tutorialmod:thaumium_boots",
+    "tutorialmod:fortress_helmet",
+    "tutorialmod:fortress_chestplate",
+    "tutorialmod:fortress_leggings",
+    "tutorialmod:fortress_boots"
   ]
 }

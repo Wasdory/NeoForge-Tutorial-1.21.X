@@ -1,0 +1,9 @@
+{
+  "asset_name": "void_metal",
+  "description": {
+    "color": "#271A2E",
+    "translate": "trim_material.tutorialmod.void_metal"
+  },
+  "ingredient": "tutorialmod:void_metal",
+  "item_model_index": 0.3
+}

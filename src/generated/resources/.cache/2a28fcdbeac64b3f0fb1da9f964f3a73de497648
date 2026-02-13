@@ -1,15 +1,17 @@
-// 1.21.1	2026-01-17T12:15:06.611791423	Tags for minecraft:item mod id tutorialmod
+// 1.21.1	2026-02-13T17:33:29.062063463	Tags for minecraft:item mod id tutorialmod
 cdab5b4e242ff36081deff08419b6e05cbe1fd99 data/minecraft/tags/item/axes.json
-65be5e18d4cb6c30f1fa791379f34ebadecb115c data/minecraft/tags/item/enchantable/armor.json
-30ab79b24fde37ebb4fd0574872940c1c8f8603c data/minecraft/tags/item/enchantable/chest_armor.json
-65be5e18d4cb6c30f1fa791379f34ebadecb115c data/minecraft/tags/item/enchantable/durability.json
+ac0314b8a0cd11be4a1c227a40e2752ff4f27efd data/minecraft/tags/item/enchantable/armor.json
+060ecd8eae4d4874765545ed29f8a62f4082128f data/minecraft/tags/item/enchantable/chest_armor.json
+ac0314b8a0cd11be4a1c227a40e2752ff4f27efd data/minecraft/tags/item/enchantable/durability.json
 65be5e18d4cb6c30f1fa791379f34ebadecb115c data/minecraft/tags/item/enchantable/equippable.json
-670df53c6f88484520fa43497404c09596233afb data/minecraft/tags/item/enchantable/foot_armor.json
-1e468dcb2ce07fccca06eee79c1e60f620e12707 data/minecraft/tags/item/enchantable/head_armor.json
-983577a2c29ab549413b38568855e84b998a3f12 data/minecraft/tags/item/enchantable/leg_armor.json
+1c2b326585eb758e4be19eea0e319e8d079f8b0c data/minecraft/tags/item/enchantable/foot_armor.json
+62d49a6865761aceb8592f5546fbf4f981f2da0f data/minecraft/tags/item/enchantable/head_armor.json
+2745f0b1fc4a93ce865d3f775a83eb80f4a9a325 data/minecraft/tags/item/enchantable/leg_armor.json
 00c307d4ad087264ff9e97e3b3709071f4a1577b data/minecraft/tags/item/hoes.json
 528d2a3dc7163f4028f582f20a006500c41b0e86 data/minecraft/tags/item/pickaxes.json
 37804b9df1f439aafa4ec4b65f9bc444e898ee75 data/minecraft/tags/item/shovels.json
 cc40cea70bfff303bfd3143dfb215265b0844aa0 data/minecraft/tags/item/swords.json
-65be5e18d4cb6c30f1fa791379f34ebadecb115c data/minecraft/tags/item/trimmable_armor.json
+2538f76b7f1401550180a554f4d00bef066c3e1e data/minecraft/tags/item/trim_materials.json
+1c3d7d904edbf0c847b6bb259ab7265e5aab366d data/minecraft/tags/item/trim_templates.json
+ac0314b8a0cd11be4a1c227a40e2752ff4f27efd data/minecraft/tags/item/trimmable_armor.json
 dc43afcc36bd64c44cc5318822c6cefafc1bb8bf data/tutorialmod/tags/item/transformable_items.json

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/thaumium_horse_armor"
+  }
+}
