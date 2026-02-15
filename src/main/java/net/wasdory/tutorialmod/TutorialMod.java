@@ -5,6 +5,7 @@ import net.wasdory.tutorialmod.component.ModDataComponents;
 import net.wasdory.tutorialmod.item.ModCreativeModeTabs;
 import net.wasdory.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.wasdory.tutorialmod.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -80,7 +81,7 @@ public class TutorialMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

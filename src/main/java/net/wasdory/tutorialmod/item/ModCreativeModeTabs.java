@@ -49,6 +49,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FORTRESS_LEGGINGS);
                         output.accept(ModItems.FORTRESS_BOOTS);
 
+                        output.accept(ModItems.BONE_BOW);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> THAUM_BLOCK_TAB = CREATIVE_MODE_TAB.register("thaum_blocks_tab",

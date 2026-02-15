@@ -18,7 +18,7 @@
   "item.tutorialmod.thaumium_leggings": "Thaumium leggings",
   "item.tutorialmod.thaumium_boots": "Thaumium boots",
   "item.tutorialmod.thaumium_horse_armor": "Thaumium horse armor",
-  "item.tutorialmod.item.tutorialmod.thaumium_horse_armor": "KWA trim template",
+  "item.tutorialmod.kwa_armor_trim_smithing_template": "KWA trim template",
 
   "trim_pattern.tutorialmod.kwa": "KWA armor trim",
   "trim_material.tutorialmod.void_metal": "Void metal material",
@@ -27,6 +27,8 @@
   "item.tutorialmod.fortress_chestplate": "Fortress chestplate",
   "item.tutorialmod.fortress_leggings": "Fortress leggings",
   "item.tutorialmod.fortress_boots": "Fortress boots",
+
+  "item.tutorialmod.bone_bow": "Bone bow",
 
   "item.tutorialmod.chisel": "Chisel",
   "block.tutorialmod.arcane_block": "Arcane block",

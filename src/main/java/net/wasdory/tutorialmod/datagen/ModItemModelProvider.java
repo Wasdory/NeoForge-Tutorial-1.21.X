@@ -48,7 +48,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.ZOMBIE_BRAIN.get());
         basicItem(ModItems.ALUMENTUM.get());
-        basicItem(ModItems.CHISEL.get());
+        // basicItem(ModItems.CHISEL.get());
 
         handheldItem(ModItems.THAUMIUM_SWORD);
         handheldItem(ModItems.THAUMIUM_SHOVEL);
