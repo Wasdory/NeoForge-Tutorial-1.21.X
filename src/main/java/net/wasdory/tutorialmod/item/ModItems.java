@@ -3,14 +3,11 @@ package net.wasdory.tutorialmod.item;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.wasdory.tutorialmod.TutorialMod;
-import net.wasdory.tutorialmod.item.custom.ChiselItem;
-import net.wasdory.tutorialmod.item.custom.FuelItem;
+import net.wasdory.tutorialmod.item.custom.*;
 import net.minecraft.network.chat.Component;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.wasdory.tutorialmod.item.custom.HammerItem;
-import net.wasdory.tutorialmod.item.custom.ModArmorItem;
 
 import java.util.List;
 
@@ -92,8 +89,8 @@ public class ModItems {
     public static final DeferredItem<Item> KWA_SMITHING_TEMPLATE = ITEMS.register( "kwa_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "kwa")));
 
-    public static final DeferredItem<Item> BONE_BOW = ITEMS.register("bone_bow",
-            () -> new BowItem(new Item.Properties().durability(512)));
+    public static final DeferredItem<BoneBowItem> BONE_BOW = ITEMS.register("bone_bow",
+            () -> new BoneBowItem(new Item.Properties().durability(512)));
 
 
     public static void register(IEventBus eventBus) {

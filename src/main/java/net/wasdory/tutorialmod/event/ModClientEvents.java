@@ -10,11 +10,11 @@ import net.wasdory.tutorialmod.item.ModItems;
 @EventBusSubscriber(modid = TutorialMod.MOD_ID, bus = EventBusSubscriber.Bus.GAME, value = Dist.CLIENT)
 public class ModClientEvents {
     @SubscribeEvent
-    public static void onComputeFovModifierEvent(ComputeFovModifierEvent event) {
+    public static void onComputeBoneBowFovModifierEvent(ComputeFovModifierEvent event) {
         if(event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == ModItems.BONE_BOW.get()) {
             float fovModifier = 1f;
             int ticksUsingItem = event.getPlayer().getTicksUsingItem();
-            float deltaTicks = (float)ticksUsingItem / 20f;
+            float deltaTicks = (float)ticksUsingItem / 10;
             if(deltaTicks > 1f) {
                 deltaTicks = 1f;
             } else {
